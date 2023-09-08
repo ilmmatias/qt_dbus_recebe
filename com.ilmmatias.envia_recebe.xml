@@ -1,0 +1,9 @@
+<!DOCTYPE node PUBLIC "-//freedesktop//DTD D-BUS Object Introspection 1.0//EN" "http://www.freedesktop.org/standards/dbus/1.0/introspect.dtd">
+<node>
+    <interface name="com.ilmmatias.envia_recebe">
+        <signal name="publicar">
+            <arg name="topico" type="s" direction="out"/>
+            <arg name="conteudo" type="s" direction="out"/>
+        </signal>
+    </interface>
+</node>
